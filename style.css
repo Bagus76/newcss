@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html,
+body {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+#bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(https://s2.gifyu.com/images/IMG-20210105-WA0465.jpg) no-repeat fixed center;
+  background-size: cover;
+  z-index: 9999;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+
+.navbar {
+  background-color: #000000 !important;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+}
+.navbar img {
+  width: 40px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.text-header {
+  padding-top: 2px;
+  color: #ffffff;
+  font-size: 0.8em;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  margin-left: 5px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.active {
+  background-color: #725400 !important;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #262626 !important;
+  border: 1px solid #262626 !important;
+  font-size: 0.65em;
+  border-radius: 1px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  outline: none;
+}
+
+.btn-primary:focus {
+  background-color: #262626 !important;
+  border: 1px solid #262626 !important;
+  box-shadow: 0px 0px 0px transparent;
+}
+
+.active {
+  background-color: #262626 !important;
+  border: 1px solid #262626 !important;
+  box-shadow: 0px 0px 0px transparent;
+}
+
+.reward-box img {
+  width: 90px;
+  height: 130px;
+  border-top: 2px solid #262626 !important;
+  border-left: 2px solid #262626 !important;
+  border-right: 2px solid #262626 !important;
+}
+
+.scroll {
+  width: 100%;
+  height: 420px;
+  margin: 10px auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-danger {
+  width: 90px;
+  background-color: #262626 !important;
+  border: 2px solid #262626 !important;
+  font-size: 0.6em;
+  border-radius: 1px;
+  outline: none;
+}
+
+.btn-danger:focus {
+  background-color: #262626 !important;
+  border: 2px solid #262626 !important;
+  box-shadow: 0px 0px 0px transparent;
+}
+
+.reward-box2 img {
+  width: 150px;
+  border-top: 2px solid #262626 !important;
+  border-left: 2px solid #262626 !important;
+  border-right: 2px solid #262626 !important;
+}
+
+.btn-info {
+  width: 150px;
+  background-color: #262626 !important;
+  border: 2px solid #262626 !important;
+  font-size: 0.6em;
+  border-radius: 1px;
+  outline: none;
+}
+
+.btn-info:focus {
+  background-color: #262626 !important;
+  border: 2px solid #262626 !important;
+  box-shadow: 0px 0px 0px transparent;
+}
+
+#diamonds {
+  display: none;
+}
+
+.imgLogin {
+  width: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.txtLogin2 {
+  font-size: 1.3em;
+  text-align: center;
+  display: block;
+  margin: -27px auto 7px 10px;
+  position: relative;
+}
+
+.formInfo label {
+  font-size: 0.75em;
+  color: #fff;
+}
+
+.formInfo input {
+  font-size: 0.75em;
+  padding: 0px 2px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #262626 !important;
+  border-radius: 0;
+  outline: none;
+  color: #fff !important;
+}
+
+.formInfo input:focus {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #262626 !important;
+  box-shadow: 0 0 0 transparent;
+}
+
+.formInfo select {
+  font-size: 0.75em;
+  padding: 0px 2px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #262626 !important;
+  border-radius: 0;
+  outline: none;
+  color: #fff !important;
+}
+
+.formInfo select:focus {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #262626 !important;
+  box-shadow: 0 0 0 transparent;
+}
+
+@media only screen and (min-width: 600px) {
+  #bg {
+    width: 400px;
+    height: auto;
+  }
+
+  .mobile {
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #262626 !important;
+  }
+}
